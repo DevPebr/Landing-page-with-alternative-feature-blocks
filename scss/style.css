@@ -542,10 +542,11 @@
     height: 170px;
   }
   * body main .some-sections .absolute-section h5 {
-    font-size: 20px;
+    font-size: 1.1rem;
   }
   * body main .some-sections .absolute-section button {
-    padding: 15px 50px;
+    padding: 10px 30px;
+    font-size: .9rem;
   }
   * body main footer {
     -webkit-box-align: center;
@@ -584,6 +585,16 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  * body main footer .body-footer .social-medias a {
+    width: 35px;
+    height: 30px;
+  }
+  * body main footer .body-footer .social-medias a img {
+    width: 15px;
+  }
+  * body main footer .body-footer .social-medias a .face-icon {
+    width: 10px;
   }
   * body main footer .footer-copy {
     width: 350px;
